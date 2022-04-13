@@ -1,7 +1,7 @@
 module "network" {
   source  = "app.terraform.io/hashicat-gcp-test/network/google"
   version = "3.4.0"
-  network_name = w-network
+  network_name = "w-network"
   project_id = var.project
   subnets = [
   {
